@@ -1,1 +1,1 @@
-wrote by: ryan from mallanao
+wrote by: ryan to mallanao
