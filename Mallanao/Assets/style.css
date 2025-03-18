@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(36, 31, 31);
+    box-sizing: border-box;
+}
+
+
+
+header{
+    display: flex;
+    padding: 25px;
+    border: solid 1px rgb(138, 138, 138) ;
+    box-shadow: 0 0 5px;
+    justify-content: center;
+    border: none;
+}
+
+
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 105px;
+    color: white;
+}
+nav a:hover{
+    color: lightblue;
+    transition: 0.6s;
+}
+
+
+
+
+
+
+input{
+    display: flex;
+  
+    margin-left: auto;
+    margin-top: 300px;
+    height: 40px;
+    width: 500px;
+    margin-right: auto;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.containerB{
+    margin-top: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    background-color: rgb(65, 65, 65);
+
+}
+.resultss{
+    display: block;
+    color: rgb(147, 147, 147);
+    width: 510px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+   }
+
+.box .container-boxA{
+    background-color: rgb(54, 53, 53);
+    height: 300px;
+    border: solid;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    font-size: 24px;
+}
+.title{
+    color:white
+}
+
+.box .container-boxA:hover{
+    background-color: rgb(82, 79, 79);
+    cursor: pointer;
+    transition: 0.6s;
+    padding: 30px;
+
+}
+
+.container-boxA{
+    text-decoration: none;
+}
